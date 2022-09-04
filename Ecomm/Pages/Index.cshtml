@@ -1,0 +1,123 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = " E-Commerce Website";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Shop</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+
+   
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="" /></a>
+                <button class="mbl-btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto"></ul>
+                    <ul class="my-navbar navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                    </ul>
+                    <div class="shopping-bag"><a href="#"><i class="fas fa-shopping-bag"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+  
+
+    <section id="Best-selling">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h1>Best Selling Products</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="products">
+                            <div class="product-img"><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ6pW39ftnIOxjElHk3Ex-kHlyTFxUjJjlgorjKoQzwN_-iYY0Jmy39jzf62pwXJjo_9ayMIltf7eLmU-Jt2Z_nhCJn2ueFVZ_t13QDB7nVfaQpxHM9zvhycg&usqp=CAE.png" alt="" /></div>
+                            <div class="product-desc">
+                                <div class="product-name"><a href="#"><h4>Cadbury</h4></a></div>
+                                <div class="product-rating"><img src="https://multifix24.es/wp-content/uploads/2019/03/multifix24-5-estrellas.png" alt="" /></div>
+                                <div class="product-price">
+                                    <h5>$35.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="products">
+                            <div class="product-img"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQAIf7KiZDhBsNqq1Z3gERfhPJ8T9IxQZR-YEPmeDlgBQoLnKIKVIGIiaCMRsY-4xxPeFmaN1q56kycVONfYwCIZIYLBp8wMbcPUx45_PgGrc6QItUaqCjjDQ&usqp=CAE.png" alt="" /></div>
+                            <div class="product-desc">
+                                 <div class="product-name"><a href="#"><h4>McCain French Fries</h4></a></div>
+                                 <div class="product-rating"><img src="https://multifix24.es/wp-content/uploads/2019/03/multifix24-5-estrellas.png" alt="" /></div>
+                                <div class="product-price">
+                                    <h5>$20.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="products">
+                            <div class="product-img"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSqMe9-BRQ8D54EeQbwNLzftOKETrDBRQBHUc4ckmUUoALB-Vv1MZAjx0UvfjmnzhzyZDlomMzwYla6FTnJJbiJCYQKtPqvl0HgYYSs_ZkzZHAbHEmXYuz1&usqp=CAE.png" alt="" /></div>
+                            <div class="product-desc">
+                                <div class="product-name"><a href="#"><h4>Samsung Galaxy</h4></a></div>
+                                 <div class="product-rating"><img src="https://multifix24.es/wp-content/uploads/2019/03/multifix24-5-estrellas.png" alt="" /></div>
+                                <div class="product-price">
+                                    <h5>$41,999</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="products">
+                            <div class="product-img">  <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQHbwSjw6fBi925jkw25Fyrf-Ae9CggCy5B0SH6nBKfm-LNAd_ZT2DCxpUPRuJom2U3QRYYfnWNQILntiVkRhU2ORENRryTMIyaTRMrcPkI1KPCUfB-6BPqQw&usqp=CAE.png"  alt="" /></div>
+                            <div class="product-desc">
+                                <div class="product-name"><a href="#"><h4>Strolley Duffel Bag</h4></a></div>
+                                   <div class="product-rating"><img src="https://multifix24.es/wp-content/uploads/2019/03/multifix24-5-estrellas.png" alt="" /></div>
+                                <div class="product-price">
+                                    <h5>$2,399</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+</body>
+
+</html>
